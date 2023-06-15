@@ -1,13 +1,18 @@
+import { Authenticator } from '@aws-amplify/ui-react';
+import '@aws-amplify/ui-react/styles.css';
+import { Auth } from "aws-amplify"
+
+
 // pages/index.js
 export default function Home({ formattedDate }) {
     return (
-      <>
+      <Authenticator>
         <h1>Static page</h1>
         <p>This page is static. It was built on {formattedDate}.</p>
         <p>
           <a href="/ssr">View a server-side rendered page.</a>
         </p>
-      </>
+      </Authenticator>
     );
   }
   

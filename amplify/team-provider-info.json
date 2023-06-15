@@ -10,6 +10,11 @@
       "StackName": "amplify-amplifyappkimura-dev-154735",
       "StackId": "arn:aws:cloudformation:ap-northeast-1:758382128758:stack/amplify-amplifyappkimura-dev-154735/83d0e3c0-0b48-11ee-95cc-0aa8d1f28dc1",
       "AmplifyAppId": "djlkcatepwn0w"
+    },
+    "categories": {
+      "auth": {
+        "amplifyappkimura0c8b9253": {}
+      }
     }
   }
 }
