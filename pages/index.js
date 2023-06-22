@@ -167,6 +167,7 @@ export default function Home({ formattedDate }) {
     <>
       <Authenticator>
         <h1>Static page</h1>
+        <h1>Add Text @Sandbox</h1>
         <p>This page is static. It was built on {formattedDate}.</p>
         <p>
           <a href="/ssr">View a server-side rendered page.</a>
